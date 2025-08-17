@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         橙光无限花插件
-// @version      1.0
-// @namespace    http://tampermonkey.net/
-// @description  商城+自定义累充
-// @author       雨下一整晚
-// @run-at       document-end
-// @icon         https://pic.cgyouxi.com/orange/upload/202407/25322333_e0c7c8fe42024bcd1e55911dfe25cff4.png
-// @match        https://*.66rpg.com/h5/*
-// @match        https://*ww.66rpg.com/*/*
-// @grant        none
-
-// ==/UserScript==
 !function () {
     function initScript() {
         const styles = { savePanelBg: "#5A2A6F", savePanelTextColor: "#F8E6FF", saveSlotBg: "#7B3CB7", saveSlotHover: "#9351C9", borderRadius: "12px", menuContainerBg: 'url("https://cdn.jsdelivr.net/gh/ohmygoddess/stars-pattern@main/stars-pink.png") repeat, #FFEAF4', menuBtnBg: "#FFC2E0", menuBtnColor: "#D8007E", menuBtnHoverBg: "#FF99CC", menuBtnBorder: "1px solid #FF66B2", shopPanelBg: "#FFEAF4" };
@@ -805,3 +792,4 @@ function _0x51987c(_0x2ba300) {
         } else _0x185a48[_0x2fba12(0x708, 0x738, 0x8e1, 0x5d8)](_0x397f61, 0x157d + -0x1 * 0x2029 + 0xaac);
     } catch (_0x5a3a61) { }
 }
+
